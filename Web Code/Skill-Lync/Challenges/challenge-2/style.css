@@ -1,0 +1,105 @@
+@import url('./reset.css');
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,600,700,800|Poppins:400,500,600,700|Yellowtail&display=swap);
+body {
+ font-family: Poppins,sans-serif;
+ font-weight: 400;
+ font-style: normal;
+}
+
+.h1{
+    font-size: 20px;
+}
+
+header,
+main,
+footer {
+    display: block;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.navbar{
+    background-color: orange;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav a {
+    /* background-color: orange; */
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav img {
+   width: 80px; 
+   height: 80px;
+}
+
+main {
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+
+
+.carousel-section,
+.shop-by-category-section,
+.latest-products-section,
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fab:hover {
+      opacity: 0.7;
+  }
+  
+  .fab-fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fab-fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }

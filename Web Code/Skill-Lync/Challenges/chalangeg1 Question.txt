@@ -1,0 +1,90 @@
+Q1. How can we create links to different sections within the same web page?
+Ans. - Creating links to different sections within the same web page:
+
+To create links to different sections within the same web page, you can use HTML anchor (<a>) tags with the href attribute pointing to the corresponding section's ID. For example:
+<a href="#section1">Go to Section 1</a>
+<a href="#section2">Go to Section 2</a>
+<!-- ... -->
+
+<h2 id="section1">Section 1</h2>
+<!-- Section 1 content -->
+
+<h2 id="section2">Section 2</h2>
+<!-- Section 2 content -->
+
+
+Q2. What are the new features introduced in HTML5?
+Ans. - New features introduced in HTML5:
+HTML5 introduced several new features, including:
+
+New parsing rules for enhanced flexibility
+New attributes like data-* for embedding custom data attributes
+New structural elements like <article>, <section>, <nav>, <header>, <footer>, etc.
+New form input types such as <input type="date">, <input type="email">, <input type="tel">, etc.
+Native support for audio and video elements (<audio> and <video>)
+Canvas element for drawing graphics
+Local Storage and Session Storage for client-side data storage
+Geolocation API
+
+Q3. What would happen if the HTML Document does not contain ?
+Ans. - **Consequences if HTML Document does not contain <!DOCTYPE html>:** If an HTML document doesn't contain the <!DOCTYPE html>` declaration, the browser might render the page in quirks mode. Quirks mode is a compatibility mode in which the browser emulates the behavior of older browsers. This can lead to inconsistencies in rendering and may cause issues with the layout and styling of the web page.
+
+
+
+Q4. What are all the various elements provided by HTML5 for media content?
+Ans. - Various elements provided by HTML5 for media content:
+HTML5 provides elements like <audio> and <video> for embedding media content. Example:
+<audio controls>
+  <source src="audio.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+Q5. What are the new Form elements made available in HTML5?
+Ans. - New Form elements in HTML5:
+HTML5 introduced new form input types and attributes, including:
+
+color
+date
+datetime-local
+email
+number
+range
+search
+tel
+time
+url
+
+Q6. List the various semantic elements in HTML5?
+Ans. - Semantic elements in HTML5:
+HTML5 introduced semantic elements to improve the structure and semantics of a web page. Some of these elements include:
+
+<article>
+<section>
+<nav>
+<header>
+<footer>
+<aside>
+<figure> and <figcaption>
+<details> and <summary>
+<mark>
+<progress>
+<time>
+
+Q7. What is a marquee?
+Ans. - Marquee:
+The <marquee> tag was used in HTML to create a scrolling or moving text or image. However, it is now deprecated and not recommended for use. CSS and JavaScript are preferred for creating similar effects.
+
+
+Q8. Which browsers support HTML5?
+Ans. - Browsers that support HTML5:
+All modern browsers, such as Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, and others, support HTML5. However, the level of support for specific features may vary.
+
+Q9. Is HTML5 backward compatible with old browsers?
+Ans. - HTML5 backward compatibility with old browsers:
+HTML5 is designed to be backward compatible, meaning that modern browsers can still render and display HTML5 content even if they don't support all the new features. However, some advanced features may not work as expected in older browsers, and developers may need to provide fallbacks or use polyfills to ensure a better experience for users on older browsers.
